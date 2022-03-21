@@ -139,3 +139,34 @@ courses.forEach2 (function(course, index, array) {
 });
 
 //html dom
+//(tuan 2)
+/*1. Get element method
+- getElementById => return 1 element
+
+- getElementsByClassName => return HTML collection
+
+- getElementsByTagName => return HTML collection
+
+- querySelector => return 1 element
+
+- querySelectorAll => return NodeList
+
+- HTML collection
+
+- document.write
+
+2. dom attribute
+- cách thêm attribute vào element:
++ element.(tên attribute của element) = "";
++ element.setAttribute("tên attribute","value attribute");  
+- cách get value của attribute:
++ element.getAttribute("tên attribute");
+
+3. innerText (thuộc tính của element Node), textContent
+- getter: innerText lấy ra nội dung giống khi nhìn trong trình duyệt, textContent trả giá trị thật trong DOM
+- setter: đều thay đổi nội dung trong element Node
+
+4. innerHTML, outerHTML
+- innerHTML thêm đc element, attribute node, text node trong 1 element khác; getter cho ra nội dung HTML dạng String trong element được get
+- outerHTML ghi đè luôn vào element được dùng để gọi, getter lấy ra nd HTML tính từ element được dùng để gọi
+*/
